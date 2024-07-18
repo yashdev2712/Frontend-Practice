@@ -13,7 +13,7 @@ import { FaRegCircleUser } from "react-icons/fa6";
 
 const Sidebar = () => {
   return (
-    <div className='p-3 w-56 text-xs font-medium opacity-75 overflow-y-auto'>
+    <div className='p-3 w-56 text-xs font-medium opacity-75 '>
       <div className='flex border-b border-white  flex-col p-4 gap-4'>
           
           <div className='flex flex-row items-center gap-3'>
@@ -165,11 +165,12 @@ const Sidebar = () => {
       </div>
       
       <div className='flex flex-col border-b border-white  p-4 gap-4'>
-        <h2>
+        <span>
         About Press Copyright Contact us C reator Advertise Developers
-        </h2>
-        <h2>TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
-        © 2024 Google LLC</h2>
+        </span>
+        <span>TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+        © 2024 Google LLC
+        </span>
         
       </div>
     </div>

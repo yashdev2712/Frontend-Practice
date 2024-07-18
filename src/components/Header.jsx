@@ -27,9 +27,7 @@ const Header = () => {
             <FaSearch size={34} className=' bg-gray-900 p-1 rounded-1 color-white hover:cursor-pointer'/>
         </button>
       </div>
-      {/* <button className='bg-white opacity-35 rounded-full p-2'> */}
           <IoMic size={35} className='rounded-full bg-gray-800 p-1 color-white hover:cursor-pointer'/>
-      {/* </button> */}
       </div>
     
       
